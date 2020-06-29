@@ -1,0 +1,519 @@
+/* Start Tabs */
+
+.tab {
+    margin: 0 auto 30px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    
+    .tab-head {
+        border-bottom: 1px solid #000;
+        padding: 0 5px;
+        
+        & > div {
+            display: inline-block;
+            padding: 10px 15px 7px;
+            margin-bottom: -1px;
+            cursor: pointer;
+            
+            &.active {
+                background-color: #fff;
+                border: 1px solid #000;
+                border-top-width: 3px;
+                border-bottom: none;
+                border-radius: 3px 3px 0 0;
+                
+            }
+        }
+    }
+    
+    .tab-body > div {
+        margin-top: 20px;
+        display: none;
+        padding: 0 10px;
+        
+        &.tab-1 {
+            display: block
+        }
+    }
+    
+    &.top-icon .tab-head > div i {
+        display: block;
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    
+    &.justify .tab-head {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 0;
+        margin-bottom: 0;
+        list-style: none;
+        
+        & > div {
+            flex-basis: 0;
+            flex-grow: 1;
+            text-align: center;
+        }
+    }
+    
+    &.vertical {
+        overflow: hidden;
+        
+        .tab-head {
+            width: 30%;
+            float: right;
+            border-left: 1px solid #000;
+            border-bottom: none !important;
+            padding: 5px 0;
+            
+            & > div {
+                display: block;
+                text-align: center;
+                margin-bottom: 0;
+                margin-left: -1px;
+                padding: 20px 0 15px;
+                
+                &.active {
+                    border-left: none;
+                    border-top-width: 1px;
+                    border-right-width: 3px;
+                    border-bottom: 1px solid;
+                    border-radius: 3px 0 0 3px
+                }
+            }
+        }
+        
+        .tab-body {
+            width: 70%;
+            float: right;
+            padding: 0 20px;
+        }
+    }
+    
+    &.primary {
+        .tab-head {
+            border-color: #008cff;
+
+            & > div.active {
+                border-color: #008cff;
+                color: #008cff;
+            }
+        }
+    }
+    
+    &.secondary {
+        .tab-head {
+            border-color: #75808a;
+
+            & > div.active {
+                border-color: #75808a;
+                color: #75808a;
+            }
+        }
+    }
+    
+    &.success {
+        .tab-head {
+            border-color: #15ca20;
+
+            & > div.active {
+                border-color: #15ca20;
+                color: #15ca20;
+            }
+        }
+    }
+    
+    &.danger {
+        .tab-head {
+            border-color: #fd3550;
+
+            & > div.active {
+                border-color: #fd3550;
+                color: #fd3550;
+            }
+        }
+    }
+    
+    &.warning {
+        .tab-head {
+            border-color: #ff9700;
+
+            & > div.active {
+                border-color: #ff9700;
+                color: #ff9700;
+            }
+        }
+    }
+    
+    &.info {
+        .tab-head {
+            border-color: #0dceec;
+
+            & > div.active {
+                border-color: #0dceec;
+                color: #0dceec;
+            }
+        }
+    }
+    
+    &.dark {
+        .tab-head {
+            border-color: #223035;
+
+            & > div.active {
+                border-color: #223035;
+                color: #223035;
+            }
+        }
+    }
+    
+    &.pill {
+        
+        .tab-head {
+            border-bottom: none;
+            padding: 0;
+
+            & > div {
+                margin-bottom: 0;
+
+                &.active {
+                    background-color: #000;
+                    color: #fff;
+                    border: none;
+                    border-radius: 3px;
+
+                }
+            }
+        }
+        
+        &.vertical .tab-head {
+            border-left: none
+        }
+        
+        &.primary {
+            .tab-head > div.active {
+                background-color: #008cff;
+            }
+        }
+
+        &.secondary {
+            .tab-head > div.active {
+                background-color: #75808a;
+            }
+        }
+
+        &.success {
+            .tab-head > div.active {
+                background-color: #15ca20;
+            }
+        }
+
+        &.danger {
+            .tab-head > div.active {
+                background-color: #fd3550;
+            }
+        }
+
+        &.warning {
+            .tab-head > div.active {
+                background-color: #ff9700;
+            }
+        }
+
+        &.info {
+            .tab-head > div.active {
+                background-color: #0dceec;
+            }
+        }
+
+        &.dark {
+            .tab-head > div.active {
+                background-color: #223035;
+            }
+        }
+    }
+}
+
+/* End Tabs */
+
+/* Start Accordion */
+
+.accordion {
+    
+    .accordion-item {
+        background-color: #fff;
+        box-shadow: 0 0 5px #aaa;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        overflow: hidden;
+        
+        .accordion-head {
+        
+            i {
+                font-size: 12px;
+                margin-left: 15px;
+            }
+
+            padding: 20px;
+        }
+
+        .accordion-body {
+            padding: 20px;
+            display: none;
+            border-top: 1px solid #aaa
+        }
+
+        &:first-of-type .accordion-body {
+            display: block
+        }
+        
+        &.primary {
+        
+            .accordion-head {
+                background-color: #008cff;
+
+                a {
+                    color: #fff
+                }
+            }
+        }
+
+        &.secondary {
+
+            .accordion-head {
+                background-color: #75808a;
+
+                a {
+                    color: #fff
+                }
+            }
+        }
+
+        &.success {
+
+            .accordion-head {
+                background-color: #15ca20;
+
+                a {
+                    color: #fff
+                }
+            }
+        }
+
+        &.danger {
+
+            .accordion-head {
+                background-color: #fd3550;
+
+                a {
+                    color: #fff
+                }
+            }
+        }
+
+        &.warning {
+
+            .accordion-head {
+                background-color: #ff9700;
+
+                a {
+                    color: #fff
+                }
+            }
+        }
+
+        &.info {
+
+            .accordion-head {
+                background-color: #0dceec;
+
+                a {
+                    color: #fff
+                }
+            }
+        }
+
+        &.dark {
+
+            .accordion-head {
+                background-color: #223035;
+
+                a {
+                    color: #fff
+                }
+            }
+        }
+        
+        &.primary-full {
+        
+            .accordion-head {
+                background-color: #008cff;
+
+                a {
+                    color: #fff
+                }
+            }
+            
+            .accordion-body {
+                background-color: #008cff;
+                color: #fff
+            }
+        }
+
+        &.secondary-full {
+
+            .accordion-head {
+                background-color: #75808a;
+
+                a {
+                    color: #fff
+                }
+            }
+            
+            .accordion-body {
+                background-color: #75808a;
+                color: #fff
+            }
+        }
+
+        &.success-full{
+
+            .accordion-head {
+                background-color: #15ca20;
+
+                a {
+                    color: #fff
+                }
+            }
+            
+            .accordion-body {
+                background-color: #15ca20;
+                color: #fff
+            }
+        }
+
+        &.danger-full {
+
+            .accordion-head {
+                background-color: #fd3550;
+
+                a {
+                    color: #fff
+                }
+            }
+            
+            .accordion-body {
+                background-color: #fd3550;
+                color: #fff
+            }
+        }
+
+        &.warning-full {
+
+            .accordion-head {
+                background-color: #ff9700;
+
+                a {
+                    color: #fff
+                }
+            }
+            
+            .accordion-body {
+                background-color: #ff9700;
+                color: #fff
+            }
+        }
+
+        &.info-full {
+
+            .accordion-head {
+                background-color: #0dceec;
+
+                a {
+                    color: #fff
+                }
+            }
+            
+            .accordion-body {
+                background-color: #0dceec;
+                color: #fff
+            }
+        }
+
+        &.dark-full {
+
+            .accordion-head {
+                background-color: #223035;
+
+                a {
+                    color: #fff
+                }
+            }
+            
+            .accordion-body {
+                background-color: #223035;
+                color: #fff
+            }
+        }
+        
+        &.primary-outline {
+            border: 1px solid #008cff;
+            
+            .accordion-head a {
+                color: #008cff
+            }
+        }
+
+        &.secondary-outline {
+            border: 1px solid #75808a;
+            
+            .accordion-head a {
+                color: #75808a
+            }
+        }
+
+        &.success-outline{
+            border: 1px solid #15ca20;
+            
+            .accordion-head a {
+                color: #15ca20
+            }
+        }
+
+        &.danger-outline {
+            border: 1px solid #fd3550;
+            
+            .accordion-head a {
+                color: #fd3550
+            }
+        }
+
+        &.warning-outline {
+            border: 1px solid #ff9700;
+            
+            .accordion-head a {
+                color: #ff9700
+            }
+        }
+
+        &.info-outline {
+            border: 1px solid #0dceec;
+            
+            .accordion-head a {
+                color: #0dceec
+            }
+        }
+
+        &.dark-outline {
+            border: 1px solid #223035;
+            
+            .accordion-head a {
+                color: #223035
+            }
+        }
+    }
+}
+
+/* End Accordion */

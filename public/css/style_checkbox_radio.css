@@ -1,0 +1,162 @@
+/* Start Checkbox */
+.input-checkbox {
+  position: relative;
+  margin: 0 0 10px 10px; }
+  .input-checkbox label {
+    display: inline-block;
+    margin-right: 10px; }
+  .input-checkbox input {
+    opacity: 0; }
+  .input-checkbox .checkbox {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    display: inline-block;
+    border-radius: 2px;
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+    right: 0; }
+    .input-checkbox .checkbox.active {
+      background-color: #000;
+      color: #fff; }
+  .input-checkbox.primary label {
+    color: #008cff; }
+  .input-checkbox.primary .checkbox {
+    border: 2px solid #008cff; }
+    .input-checkbox.primary .checkbox.active {
+      background-color: #008cff; }
+  .input-checkbox.secondary label {
+    color: #75808a; }
+  .input-checkbox.secondary .checkbox {
+    border: 2px solid #75808a; }
+    .input-checkbox.secondary .checkbox.active {
+      background-color: #75808a; }
+  .input-checkbox.success label {
+    color: #15ca20; }
+  .input-checkbox.success .checkbox {
+    border: 2px solid #15ca20; }
+    .input-checkbox.success .checkbox.active {
+      background-color: #15ca20; }
+  .input-checkbox.danger label {
+    color: #fd3550; }
+  .input-checkbox.danger .checkbox {
+    border: 2px solid #fd3550; }
+    .input-checkbox.danger .checkbox.active {
+      background-color: #fd3550; }
+  .input-checkbox.warning label {
+    color: #ff9700; }
+  .input-checkbox.warning .checkbox {
+    border: 2px solid #ff9700; }
+    .input-checkbox.warning .checkbox.active {
+      background-color: #ff9700; }
+  .input-checkbox.info label {
+    color: #0dceec; }
+  .input-checkbox.info .checkbox {
+    border: 2px solid #0dceec; }
+    .input-checkbox.info .checkbox.active {
+      background-color: #0dceec; }
+  .input-checkbox.dark label {
+    color: #223035; }
+  .input-checkbox.dark .checkbox {
+    border: 2px solid #223035; }
+    .input-checkbox.dark .checkbox.active {
+      background-color: #223035; }
+  .input-checkbox.light label {
+    color: #f8f9fa; }
+  .input-checkbox.light .checkbox {
+    border: 2px solid #f8f9fa; }
+    .input-checkbox.light .checkbox.active {
+      color: #333;
+      background-color: #f8f9fa; }
+  .input-checkbox.inline {
+    display: inline-block;
+    margin-left: 20px; }
+    .input-checkbox.inline .checkbox {
+      top: 0; }
+
+/* End Checkbox */
+/* Start Radio */
+.input-radio {
+  position: relative;
+  margin: 0 0 10px 10px; }
+  .input-radio label {
+    display: inline-block;
+    margin-right: 10px; }
+  .input-radio input {
+    opacity: 0; }
+  .input-radio .radio {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    color: #000;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    font-size: 14px;
+    right: 0; }
+    .input-radio .radio .circle {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin: 3px auto;
+      background-color: #000; }
+  .input-radio.primary label {
+    color: #008cff; }
+  .input-radio.primary .radio {
+    border: 2px solid #008cff; }
+    .input-radio.primary .radio .circle {
+      background-color: #008cff; }
+  .input-radio.secondary label {
+    color: #75808a; }
+  .input-radio.secondary .radio {
+    border: 2px solid #75808a; }
+    .input-radio.secondary .radio .circle {
+      background-color: #75808a; }
+  .input-radio.success label {
+    color: #15ca20; }
+  .input-radio.success .radio {
+    border: 2px solid #15ca20; }
+    .input-radio.success .radio .circle {
+      background-color: #15ca20; }
+  .input-radio.danger label {
+    color: #fd3550; }
+  .input-radio.danger .radio {
+    border: 2px solid #fd3550; }
+    .input-radio.danger .radio .circle {
+      background-color: #fd3550; }
+  .input-radio.warning label {
+    color: #ff9700; }
+  .input-radio.warning .radio {
+    border: 2px solid #ff9700; }
+    .input-radio.warning .radio .circle {
+      background-color: #ff9700; }
+  .input-radio.info label {
+    color: #0dceec; }
+  .input-radio.info .radio {
+    border: 2px solid #0dceec; }
+    .input-radio.info .radio .circle {
+      background-color: #0dceec; }
+  .input-radio.dark label {
+    color: #223035; }
+  .input-radio.dark .radio {
+    border: 2px solid #223035; }
+    .input-radio.dark .radio .circle {
+      background-color: #223035; }
+  .input-radio.light label {
+    color: #f8f9fa; }
+  .input-radio.light .radio {
+    border: 2px solid #f8f9fa; }
+    .input-radio.light .radio .circle {
+      background-color: #f8f9fa; }
+  .input-radio.inline {
+    display: inline-block;
+    margin-left: 20px; }
+    .input-radio.inline .radio {
+      top: 0; }
+
+/* End Radio */
+
+/*# sourceMappingURL=style_checkbox_radio.css.map */

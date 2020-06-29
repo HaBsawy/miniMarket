@@ -1,0 +1,25 @@
+/* Start Pagination */
+.pagination {
+  margin-bottom: 10px; }
+  .pagination.round li:first-of-type a {
+    border-radius: 0 30px 30px 0 !important; }
+  .pagination.round li:last-of-type a {
+    border-radius: 30px 0 0 30px !important; }
+  .pagination .page-item:first-child {
+    border-radius: 0 .25rem .25rem 0 !important; }
+  .pagination .page-item:first-child .page-link {
+    border-radius: 0 .25rem .25rem 0 !important; }
+  .pagination .page-item:last-child {
+    border-radius: .25rem 0 0 .25rem !important; }
+  .pagination .page-item:last-child .page-link {
+    border-radius: .25rem 0 0 .25rem !important; }
+  .pagination.separated li {
+    margin: 0 5px; }
+  .pagination.full-color a {
+    color: #fff; }
+  .pagination.outline-color li:hover a {
+    color: #fff; }
+
+/* End Pagination */
+
+/*# sourceMappingURL=style_pagination.css.map */

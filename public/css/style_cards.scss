@@ -1,0 +1,229 @@
+/* Start Cards */
+
+.card-default {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px #aaa;
+    margin-bottom: 30px;
+    
+    img {
+        width: 100%
+    }
+    
+    .body {
+        padding: 10px 20px 5px;
+        
+        h5 {
+            font-weight: bold;
+        }
+        
+        p {
+            margin: 10px 0 20px;
+            color: #000;
+        }
+    }
+    
+    ul {
+        list-style: none;
+        border-top: 1px solid #aaa;
+
+        li {
+            padding: 7px 20px;
+            border-bottom: 1px solid #aaa
+        }
+    }
+
+    a {
+        margin: 10px 20px 10px 0;
+        display: inline-block
+    }
+    
+    &.primary {
+        color: #008cff;
+        border-bottom: 5px solid #008cff
+    }
+    
+    &.secondary {
+        color: #75808a;
+        border-bottom: 5px solid #75808a
+    }
+    
+    &.success {
+        color: #15ca20;
+        border-bottom: 5px solid #15ca20
+    }
+    
+    &.danger {
+        color: #fd3550;
+        border-bottom: 5px solid #fd3550
+    }
+    
+    &.warning {
+        color: #ff9700;
+        border-bottom: 5px solid #ff9700
+    }
+    
+    &.info {
+        color: #0dceec;
+        border-bottom: 5px solid #0dceec
+    }
+    
+    &.light {
+        color: #212529;
+        border-bottom: 5px solid #e9eaea
+    }
+    
+    &.dark {
+        color: #223035;
+        border-bottom: 5px solid #223035
+    }
+    
+    .primary-overlay {
+        background: rgba(0, 140, 255, 0.81);
+    }
+    
+    .success-overlay {
+        background: rgba(21, 202, 32, 0.81);
+    }
+    
+    .danger-overlay {
+        background: rgba(253, 53, 80, 0.81);
+    }
+    
+    .warning-overlay {
+        background: rgba(255, 151, 0, 0.81);
+    }
+    
+    .info-overlay {
+        background: rgba(13, 206, 236, 0.81);
+    }
+    
+    .dark-overlay {
+        background: rgba(34, 48, 53, 0.81);
+    }
+    
+    &.img-overlay {
+        background-size: cover;
+        color: #fff;
+        
+        p {
+            color: #fff
+        }
+    }
+    
+    p.footer {
+        padding: 0 20px 15px;
+    }
+    
+    hr {
+        margin-bottom: 15px;
+    }
+    
+    &.background-primary-outline {
+        border: 1px solid #008cff;
+        color: #008cff;
+    }
+    
+    &.background-secondary-outline {
+        border: 1px solid #75808a;
+        color: #75808a;
+    }
+    
+    &.background-success-outline {
+        border: 1px solid #15ca20;
+        color: #15ca20;
+    }
+    
+    &.background-danger-outline {
+        border: 1px solid #fd3550;
+        color: #fd3550;
+    }
+    
+    &.background-warning-outline {
+        border: 1px solid #ff9700;
+        color: #ff9700;
+    }
+    
+    &.background-info-outline {
+        border: 1px solid #0dceec;
+        color: #0dceec;
+    }
+    
+    &.background-light-outline {
+        border: 1px solid #e9eaea;
+        color: #212529;
+    }
+    
+    &.background-dark-outline {
+        border: 1px solid #223035;
+        color: #223035;
+    }
+    
+    .heading-primary {
+        padding: 10px 20px;
+        background-color: #008cff;
+        color: #fff;
+    }
+    
+    .heading-secondary {
+        padding: 10px 20px;
+        background-color: #75808a;
+        color: #fff;
+    }
+    
+    .heading-success {
+        padding: 10px 20px;
+        background-color: #15ca20;
+        color: #fff;
+    }
+    
+    .heading-danger {
+        padding: 10px 20px;
+        background-color: #fd3550;
+        color: #fff;
+    }
+    
+    .heading-warning {
+        padding: 10px 20px;
+        background-color: #ff9700;
+        color: #fff;
+    }
+    
+    .heading-info {
+        padding: 10px 20px;
+        background-color: #0dceec;
+        color: #fff;
+    }
+    
+    .heading-light {
+        padding: 10px 20px;
+        background-color: #e9eaea;
+        color: #212529;
+    }
+    
+    .heading-dark {
+        padding: 10px 20px;
+        background-color: #223035;
+        color: #fff;
+    }
+}
+
+.group-card {
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 5px;
+    overflow: hidden;
+    
+    .card-default {
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        width: 33.33%;
+        border-radius: 0;
+    }
+}
+
+/* End Cards */

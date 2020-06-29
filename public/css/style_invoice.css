@@ -1,0 +1,39 @@
+/* Start Invoice */
+.invoice {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px; }
+  .invoice h2 {
+    margin-bottom: 10px; }
+  .invoice h3 {
+    margin-bottom: 20px;
+    font-weight: bold; }
+    .invoice h3 span {
+      font-size: 22px;
+      font-weight: normal; }
+  .invoice .cont {
+    margin-top: 20px; }
+    .invoice .cont p {
+      color: #666; }
+  .invoice .table-sm {
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666; }
+    .invoice .table-sm td, .invoice .table-sm th {
+      padding: 0; }
+  .invoice h4 {
+    color: #666;
+    margin-bottom: 10px; }
+  .invoice img {
+    width: 100px; }
+  .invoice .table {
+    color: #666; }
+  .invoice button {
+    margin-top: 20px; }
+
+/* End Invoice */
+
+/*# sourceMappingURL=style_invoice.css.map */

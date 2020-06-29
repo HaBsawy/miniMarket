@@ -1,0 +1,52 @@
+/* Start Pagination */
+
+.pagination {
+    margin-bottom: 10px;
+    
+    &.round {
+        
+        li:first-of-type a {
+            border-radius: 0 30px 30px 0 !important
+        }
+        
+        li:last-of-type a {
+            border-radius: 30px 0 0 30px !important
+        }
+    }
+    
+    .page-item:first-child {
+        border-radius: 0 .25rem .25rem 0 !important;
+    }
+    
+    .page-item:first-child .page-link {
+        border-radius: 0 .25rem .25rem 0 !important;
+    }
+    
+    .page-item:last-child {
+        border-radius: .25rem 0 0 .25rem !important;
+    }
+    
+    .page-item:last-child .page-link {
+        border-radius: .25rem 0 0 .25rem !important;
+    }
+    
+    &.separated li {
+        margin: 0 5px;
+    }
+    
+    &.full-color {
+        
+        a {
+            color: #fff
+        }
+    }
+    
+    &.outline-color {
+        
+        li:hover a {
+            color: #fff
+        }
+    }
+}
+
+/* End Pagination */

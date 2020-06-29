@@ -1,0 +1,38 @@
+/* Start Authentication */
+body {
+  background: url("../images/authentication-bg.png");
+  width: 100%;
+  height: 100%; }
+
+.error {
+  margin: 150px auto; }
+  .error h2 {
+    font-size: 120px;
+    font-weight: bold;
+    text-align: center !important; }
+  .error h3 {
+    font-weight: bold;
+    text-align: center !important; }
+    .error h3.coming-soon {
+      font-size: 50px; }
+  .error h6 {
+    width: 45%;
+    margin: 10px auto 20px;
+    text-align: center !important; }
+  .error hr {
+    width: 50%;
+    margin: 10px auto 20px; }
+  .error .counter-down .cont {
+    border: 2px solid #aaa;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px; }
+    .error .counter-down .cont h2 {
+      margin: -20px 0; }
+    .error .counter-down .cont span {
+      font-size: 30px;
+      font-weight: bold; }
+
+/* End Authentication */
+
+/*# sourceMappingURL=style_error.css.map */

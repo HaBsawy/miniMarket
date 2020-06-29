@@ -1,0 +1,89 @@
+
+
+.table {
+    
+    .thead-primary {
+    
+        th {
+            color: #fff;
+            background-color: #008cff;
+            border-color: #0376f1;
+        }
+    }
+    
+    .thead-secondary {
+    
+        th {
+            color: #fff;
+            background-color: #75808a;
+            border-color: #56616b;
+        }
+    }
+    
+    .thead-success {
+    
+        th {
+            color: #fff;
+            background-color: #15ca20;
+            border-color: #03af0d;
+        }
+    }
+    
+    .thead-danger {
+    
+        th {
+            color: #fff;
+            background-color: #fd3550;
+            border-color: #cc011c;
+        }
+    }
+    
+    .thead-warning {
+    
+        th {
+            color: #fff;
+            background-color: #ff9700;
+            border-color: #da8100;
+        }
+    }
+    
+    .thead-info {
+    
+        th {
+            color: #fff;
+            background-color: #0dceec;
+            border-color: #01b9d6;
+        }
+    }
+    
+    &.table-primary {
+        color: #fff;
+        background-color: #008cff;
+    }
+    
+    &.table-secondary {
+        color: #fff;
+        background-color: #75808a;
+    }
+    
+    &.table-success {
+        color: #fff;
+        background-color: #15ca20;
+    }
+    
+    &.table-danger {
+        color: #fff;
+        background-color: #fd3550;
+    }
+    
+    &.table-warning {
+        color: #fff;
+        background-color: #ff9700;
+    }
+    
+    &.table-info {
+        color: #fff;
+        background-color: #0dceec;
+    }
+    
+}

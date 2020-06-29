@@ -1,0 +1,65 @@
+/* Start Range Slider */
+
+.slider-container {
+    margin: 30px 0 20px;
+    
+    .slider.slider-horizontal {
+        width: 100%;
+    }
+    
+    .slider-track-high, 
+    .slider-track-low {
+        background: #e1e4e9;
+        border-radius: 0;
+    }
+    
+    .slider.slider-horizontal .slider-selection {
+        background: #dc3545;
+        border-radius: 0 4px 4px 0;
+        z-index: 1
+    }
+     
+    .slider.slider-horizontal .slider-handle {
+        margin-right: 0;
+        border-radius: 0;
+        width: 5px;
+        background: #dc3545;
+        top: 2px;
+        height: 16px;
+        
+        .badge {
+            background: #dc3545;
+            color: #e1e4e9;
+            left: -8px;
+        }
+    }
+    
+    .slider.slider-horizontal .slider-tick {
+        margin-right: 0px;
+        border-radius: 0;
+        width: 2px;
+        background: #e1e4e9;
+        top: 5px;
+        height: 13px;
+    }
+    
+    .slider.slider-horizontal .slider-tick-label-container .slider-tick-label {
+        color: #e1e4e9;
+        font-size: 12px;
+    }
+    
+    .badge {
+        position: absolute;
+        right: 0;
+        top: -25px;
+        background-color: #e1e4e9;
+        color: #999;
+        
+        &:last-of-type {
+            left: 0;
+            right: auto;
+        }
+    }
+}
+
+/* End Range Slider */

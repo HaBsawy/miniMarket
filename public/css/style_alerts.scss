@@ -1,0 +1,134 @@
+/* Start Alerts */
+
+.alert {
+    box-shadow: 0 0 5px #aaa;
+    padding: 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    overflow: hidden;
+    
+    .icon {
+        float: right;
+        font-size: 24px;
+        padding: 7px 12px 5px;
+        
+        &.contrast {
+            background-color: rgba(255,255,255,0.2)
+        }
+    }
+    
+    .alert-body {
+        float: right;
+        padding: 11px 10px;
+        
+        h5 {
+            font-size: 16px;
+            margin-top: 2px;
+        }
+    }
+    
+    .close {
+        margin: 10px;
+        float: left
+    }
+    
+    &.round {
+        border-radius: 100px;
+    }
+    
+    &.success {
+        background-color: #15ca20
+    }
+    
+    &.danger {
+        background-color: #fd3550
+    }
+    
+    &.info {
+        background-color: #0dceec
+    }
+    
+    &.warning {
+        background-color: #ff9700
+    }
+    
+    &.success-outline {
+        border: 1px solid #15ca20;
+        background-color: #fff;
+        color: #15ca20;
+        border-right-width: 3px;
+        border-left-width: 3px;
+        
+        .solid {
+            background-color: #15ca20;
+            color: #fff
+        }
+    }
+    
+    &.danger-outline {
+        border: 1px solid #fd3550;
+        background-color: #fff;
+        color: #fd3550;
+        border-left-width: 3px;
+        border-right-width: 3px;
+        
+        .solid {
+            background-color: #fd3550;
+            color: #fff
+        }
+    }
+    
+    &.info-outline {
+        border: 1px solid #0dceec;
+        background-color: #fff;
+        color: #0dceec;
+        border-left-width: 3px;
+        border-right-width: 3px;
+        
+        .solid {
+            background-color: #0dceec;
+            color: #fff
+        }
+    }
+    
+    &.warning-outline {
+        border: 1px solid #ff9700;
+        background-color: #fff;
+        color: #ff9700;
+        border-left-width: 3px;
+        border-right-width: 3px;
+        
+        .solid {
+            background-color: #ff9700;
+            color: #fff
+        }
+    }
+    
+    &.success-inverse {
+        color: #15ca20;
+        background-color: rgba(7, 255, 22, 0.24);
+        border-color: rgb(212, 246, 214);
+    }
+    
+    &.danger-inverse {
+        color: #fd3550;
+        background-color: rgba(255, 72, 97, 0.24);
+        border-color: rgb(255, 218, 223);
+    }
+    
+    &.info-inverse {
+        color: #0dceec;
+        background-color: rgba(2, 221, 255, 0.24);
+        border-color: rgb(211, 246, 252);
+    }
+    
+    &.warning-inverse {
+        color: #ff9700;
+        background-color: rgba(255, 195, 0, 0.24);
+        border-color: rgb(255, 236, 209);
+    }
+}
+
+/* End Alerts */

@@ -1,0 +1,369 @@
+/* Start Default Buttons */
+
+button {
+    padding: 7px 20px 5px;
+    border: none;
+    outline: none !important;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.4s all ease;
+    
+    &.btn-warning {
+        color: #fff
+    }
+    
+    &.round {
+        border-radius: 100px
+    }
+    
+    &.primary-dark {
+        border: 1px solid #057ddf;
+        background-color: #057ddf;
+    }
+    
+    &.secondary-dark {
+        border: 1px solid #616a72;
+         background-color: #616a72;
+    }
+    
+    &.success-dark {
+        border: 1px solid #12ae1b;
+        background-color: #12ae1b;
+    }
+    
+    &.danger-dark {
+        border: 1px solid #dd3047;
+        background-color: #dd3047;
+    }
+    
+    &.warning-dark {
+        border: 1px solid #ec8e07;
+        background-color: #ec8e07;
+    }
+    
+    &.info-dark {
+        border: 1px solid #0db6d1;
+        background-color: #0db6d1;
+    }
+    
+    &.light-dark {
+        border: 1px solid #ced1d1;
+        color: #212529;
+        background-color: #ced1d1;
+    }
+    
+    &.dark-dark {
+        border: 1px solid #131b1e;
+        background-color: #131b1e;
+    }
+    
+    &.primary-inverse {
+        border: 1px solid rgba(0, 140, 255, 0.18);
+        color: #008cff;
+        background-color: rgba(0, 140, 255, 0.18);
+        
+        &:hover {
+            border: 1px solid #008cff
+        }
+    }
+    
+    &.secondary-inverse {
+        border: 1px solid rgba(117, 128, 138, 0.18);
+        color: #75808a;
+        background-color: rgba(117, 128, 138, 0.18);
+        
+        &:hover {
+            border: 1px solid #75808a
+        }
+    }
+    
+    &.success-inverse {
+        border: 1px solid rgba(21, 202, 32, 0.18);
+        color: #15ca20;
+        background-color: rgba(21, 202, 32, 0.18);
+        
+        &:hover {
+            border: 1px solid #15ca20;
+        }
+    }
+    
+    &.danger-inverse {
+        border: 1px solid rgba(253, 53, 80, 0.18);
+        color: #fd3550;
+        background-color: rgba(253, 53, 80, 0.18);
+        
+        &:hover {
+            border: 1px solid #fd3550;
+        }
+    }
+    
+    &.warning-inverse {
+        border: 1px solid rgba(255, 151, 0, 0.18);
+        color: #ff9700;
+        background-color: rgba(255, 151, 0, 0.18);
+        
+        &:hover {
+            border: 1px solid #ff9700;
+        }
+    }
+    
+    &.info-inverse {
+        border: 1px solid rgba(13, 206, 236, 0.18);
+        color: #0dceec;
+        background-color: rgba(13, 206, 236, 0.18);
+        
+        &:hover {
+            border: 1px solid #0dceec;
+        }
+    }
+    
+    &.light-inverse {
+        border: 1px solid rgba(233, 234, 234, 0.2);
+        color: #212529;
+        background-color: rgba(233, 234, 234, 0.2);
+        
+        &:hover {
+            border: 1px solid rgba(233, 234, 234, 1);
+        }
+    }
+    
+    &.dark-inverse {
+        border: 1px solid rgba(34, 48, 53, 0.2);
+        color: #223035;
+        background-color: rgba(34, 48, 53, 0.2);
+        
+        &:hover {
+            border: 1px solid #223035;
+        }
+    }
+    
+    &.facebook {
+        background-color: #3b5998;
+        border: 1px solid #3b5998
+    }
+    
+    &.twitter {
+        background-color: #55acee;
+        border: 1px solid #55acee
+    }
+    
+    &.google {
+        background-color: #dd4b39;
+        border: 1px solid #dd4b39
+    }
+    
+    &.linkedin {
+        background-color: #0976b4;
+        border: 1px solid #0976b4
+    }
+    
+    &.youtube {
+        background-color: #e52d27;
+        border: 1px solid #e52d27
+    }
+    
+    &.github {
+        background-color: #333;
+        border: 1px solid #333
+    }
+    
+    &.behance {
+        background-color: #1769ff;
+        border: 1px solid #1769ff
+    }
+    
+    &.skype {
+        background-color: #00aff0;
+        border: 1px solid #00aff0
+    }
+    
+    &.facebook-outline {
+        border: 1px solid #3b5998;
+        background-color: transparent;
+        color: #3b5998;
+        
+        &:hover {
+            background-color: #3b5998;
+            color: #fff
+        }
+    }
+    
+    &.twitter-outline {
+        border: 1px solid #55acee;
+        background-color: transparent;
+        color: #55acee;
+        
+        &:hover {
+            background-color: #55acee;
+            color: #fff
+        }
+    }
+    
+    &.google-outline {
+        border: 1px solid #dd4b39;
+        background-color: transparent;
+        color: #dd4b39;
+        
+        &:hover {
+            background-color: #dd4b39;
+            color: #fff
+        }
+    }
+    
+    &.linkedin-outline {
+        border: 1px solid #0976b4;
+        background-color: transparent;
+        color: #0976b4;
+        
+        &:hover {
+            background-color: #0976b4;
+            color: #fff
+        }
+    }
+    
+    &.youtube-outline {
+        border: 1px solid #e52d27;
+        background-color: transparent;
+        color: #e52d27;
+        
+        &:hover {
+            background-color: #e52d27;
+            color: #fff
+        }
+    }
+    
+    &.github-outline {
+        border: 1px solid #333;
+        background-color: transparent;
+        color: #333;
+        
+        &:hover {
+            background-color: #333;
+            color: #fff
+        }
+    }
+    
+    &.behance-outline {
+        border: 1px solid #1769ff;
+        background-color: transparent;
+        color: #1769ff;
+        
+        &:hover {
+            background-color: #1769ff;
+            color: #fff
+        }
+    }
+    
+    &.skype-outline {
+        border: 1px solid #00aff0;
+        background-color: transparent;
+        color: #00aff0;
+        
+        &:hover {
+            background-color: #00aff0;
+            color: #fff
+        }
+    }
+    
+    &.drop-down {
+        position: relative;
+    }
+    
+    .drop-list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        padding: 5px 0;
+        box-shadow: 0 0 5px #aaa;
+        border-radius: 5px;
+        background-color: #fff;
+        width: 200px;
+        z-index: 2;
+        
+        ul {
+            list-style: none
+        }
+        
+        a {
+            padding: 5px 10px;
+            display: block;
+            transition: 0.5s all ease;
+            
+            &:hover {
+                background-color: #efefef
+            }
+        }
+    }
+}
+
+/* End Default Buttons */
+
+/* Start Group Buttons */
+
+.btn-group {
+    margin-left: 10px;
+    
+    .btn {
+        margin-left: 0;
+        
+        &:first-of-type {
+            border-radius: 0 .25rem .25rem 0 !important;
+        }
+        
+        &:last-of-type {
+            border-radius: .25rem 0 0 .25rem !important
+        }
+    }
+    
+    &.round {
+        
+        .btn:first-of-type {
+            border-radius: 0 50px 50px 0;
+        }
+        
+        .btn:last-of-type {
+            border-radius: 50px 0 0 50px;
+        }
+    }
+    
+    &.rounded-0 {
+        
+        .btn {
+            border-radius: 0;
+        }
+    }
+}
+
+.btn-group-vertical {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    .btn {
+        margin-bottom: 0;
+    }
+    
+    &.round {
+        
+        .btn:first-of-type {
+            border-radius: 30px 30px 0 0;
+        }
+        
+        .btn:last-of-type {
+            border-radius: 0 0 30px 30px;
+        }
+    }
+    
+    &.rounded-0 {
+        
+        .btn {
+            border-radius: 0;
+        }
+    }
+}
+
+/* End Group Buttons */

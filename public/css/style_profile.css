@@ -1,0 +1,85 @@
+/* Start Profile */
+.profile .main-data {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden; }
+  .profile .main-data .header {
+    padding: 30px 0; }
+    .profile .main-data .header .circle {
+      margin: 0 auto 10px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      padding: 5px;
+      background-color: #fff;
+      border: 1px solid #ccc; }
+      .profile .main-data .header .circle img {
+        border-radius: 50%; }
+    .profile .main-data .header h5 {
+      font-weight: bold;
+      margin-bottom: 5px;
+      text-align: center !important; }
+    .profile .main-data .header h6 {
+      text-align: center !important; }
+  .profile .main-data .main-content .contact-info {
+    width: 90%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 7px; }
+    .profile .main-data .main-content .contact-info .contact-detail {
+      padding: 15px 0;
+      border-bottom: 1px solid #ccc; }
+      .profile .main-data .main-content .contact-info .contact-detail:last-of-type {
+        border-bottom: none; }
+      .profile .main-data .main-content .contact-info .contact-detail i {
+        font-size: 36px; }
+      .profile .main-data .main-content .contact-info .contact-detail h5 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-right: -20px; }
+      .profile .main-data .main-content .contact-info .contact-detail p {
+        font-size: 14px;
+        color: #666;
+        margin-right: -20px; }
+  .profile .main-data .main-content ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px; }
+    .profile .main-data .main-content ul li {
+      width: 50%;
+      text-align: center; }
+      .profile .main-data .main-content ul li h4 {
+        font-weight: bold;
+        text-align: center !important; }
+      .profile .main-data .main-content ul li h6 {
+        font-size: 14px;
+        color: #666;
+        text-align: center !important; }
+  .profile .main-data .main-content .social {
+    margin: 20px 0 10px; }
+.profile .details-content .tab {
+  border-radius: 5px; }
+  .profile .details-content .tab .tab-body h4 {
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .profile .details-content .tab .tab-body h6 {
+    font-weight: bold;
+    margin-bottom: 5px; }
+  .profile .details-content .tab .tab-body p {
+    margin-bottom: 20px; }
+  .profile .details-content .tab .tab-body hr {
+    margin: 15px 0; }
+  .profile .details-content .tab .tab-body .table-sm thead td {
+    border-top: none; }
+    .profile .details-content .tab .tab-body .table-sm thead td h4 {
+      margin: 0; }
+  .profile .details-content .tab .tab-body .table-sm tbody td {
+    font-size: 14px;
+    color: #666;
+    padding: 2px 10px; }
+
+/* End Profile */
+
+/*# sourceMappingURL=style_profile.css.map */

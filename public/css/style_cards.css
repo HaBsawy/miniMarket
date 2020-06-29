@@ -1,0 +1,144 @@
+/* Start Cards */
+.card-default {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 0 5px #aaa;
+  margin-bottom: 30px; }
+  .card-default img {
+    width: 100%; }
+  .card-default .body {
+    padding: 10px 20px 5px; }
+    .card-default .body h5 {
+      font-weight: bold; }
+    .card-default .body p {
+      margin: 10px 0 20px;
+      color: #000; }
+  .card-default ul {
+    list-style: none;
+    border-top: 1px solid #aaa; }
+    .card-default ul li {
+      padding: 7px 20px;
+      border-bottom: 1px solid #aaa; }
+  .card-default a {
+    margin: 10px 20px 10px 0;
+    display: inline-block; }
+  .card-default.primary {
+    color: #008cff;
+    border-bottom: 5px solid #008cff; }
+  .card-default.secondary {
+    color: #75808a;
+    border-bottom: 5px solid #75808a; }
+  .card-default.success {
+    color: #15ca20;
+    border-bottom: 5px solid #15ca20; }
+  .card-default.danger {
+    color: #fd3550;
+    border-bottom: 5px solid #fd3550; }
+  .card-default.warning {
+    color: #ff9700;
+    border-bottom: 5px solid #ff9700; }
+  .card-default.info {
+    color: #0dceec;
+    border-bottom: 5px solid #0dceec; }
+  .card-default.light {
+    color: #212529;
+    border-bottom: 5px solid #e9eaea; }
+  .card-default.dark {
+    color: #223035;
+    border-bottom: 5px solid #223035; }
+  .card-default .primary-overlay {
+    background: rgba(0, 140, 255, 0.81); }
+  .card-default .success-overlay {
+    background: rgba(21, 202, 32, 0.81); }
+  .card-default .danger-overlay {
+    background: rgba(253, 53, 80, 0.81); }
+  .card-default .warning-overlay {
+    background: rgba(255, 151, 0, 0.81); }
+  .card-default .info-overlay {
+    background: rgba(13, 206, 236, 0.81); }
+  .card-default .dark-overlay {
+    background: rgba(34, 48, 53, 0.81); }
+  .card-default.img-overlay {
+    background-size: cover;
+    color: #fff; }
+    .card-default.img-overlay p {
+      color: #fff; }
+  .card-default p.footer {
+    padding: 0 20px 15px; }
+  .card-default hr {
+    margin-bottom: 15px; }
+  .card-default.background-primary-outline {
+    border: 1px solid #008cff;
+    color: #008cff; }
+  .card-default.background-secondary-outline {
+    border: 1px solid #75808a;
+    color: #75808a; }
+  .card-default.background-success-outline {
+    border: 1px solid #15ca20;
+    color: #15ca20; }
+  .card-default.background-danger-outline {
+    border: 1px solid #fd3550;
+    color: #fd3550; }
+  .card-default.background-warning-outline {
+    border: 1px solid #ff9700;
+    color: #ff9700; }
+  .card-default.background-info-outline {
+    border: 1px solid #0dceec;
+    color: #0dceec; }
+  .card-default.background-light-outline {
+    border: 1px solid #e9eaea;
+    color: #212529; }
+  .card-default.background-dark-outline {
+    border: 1px solid #223035;
+    color: #223035; }
+  .card-default .heading-primary {
+    padding: 10px 20px;
+    background-color: #008cff;
+    color: #fff; }
+  .card-default .heading-secondary {
+    padding: 10px 20px;
+    background-color: #75808a;
+    color: #fff; }
+  .card-default .heading-success {
+    padding: 10px 20px;
+    background-color: #15ca20;
+    color: #fff; }
+  .card-default .heading-danger {
+    padding: 10px 20px;
+    background-color: #fd3550;
+    color: #fff; }
+  .card-default .heading-warning {
+    padding: 10px 20px;
+    background-color: #ff9700;
+    color: #fff; }
+  .card-default .heading-info {
+    padding: 10px 20px;
+    background-color: #0dceec;
+    color: #fff; }
+  .card-default .heading-light {
+    padding: 10px 20px;
+    background-color: #e9eaea;
+    color: #212529; }
+  .card-default .heading-dark {
+    padding: 10px 20px;
+    background-color: #223035;
+    color: #fff; }
+
+.group-card {
+  display: flex;
+  flex-flow: row wrap;
+  border-radius: 5px;
+  overflow: hidden; }
+  .group-card .card-default {
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    width: 33.33%;
+    border-radius: 0; }
+
+/* End Cards */
+
+/*# sourceMappingURL=style_cards.css.map */

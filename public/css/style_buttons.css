@@ -1,0 +1,223 @@
+/* Start Default Buttons */
+button {
+  padding: 7px 20px 5px;
+  border: none;
+  outline: none !important;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.4s all ease; }
+  button.btn-warning {
+    color: #fff; }
+  button.round {
+    border-radius: 100px; }
+  button.primary-dark {
+    border: 1px solid #057ddf;
+    background-color: #057ddf; }
+  button.secondary-dark {
+    border: 1px solid #616a72;
+    background-color: #616a72; }
+  button.success-dark {
+    border: 1px solid #12ae1b;
+    background-color: #12ae1b; }
+  button.danger-dark {
+    border: 1px solid #dd3047;
+    background-color: #dd3047; }
+  button.warning-dark {
+    border: 1px solid #ec8e07;
+    background-color: #ec8e07; }
+  button.info-dark {
+    border: 1px solid #0db6d1;
+    background-color: #0db6d1; }
+  button.light-dark {
+    border: 1px solid #ced1d1;
+    color: #212529;
+    background-color: #ced1d1; }
+  button.dark-dark {
+    border: 1px solid #131b1e;
+    background-color: #131b1e; }
+  button.primary-inverse {
+    border: 1px solid rgba(0, 140, 255, 0.18);
+    color: #008cff;
+    background-color: rgba(0, 140, 255, 0.18); }
+    button.primary-inverse:hover {
+      border: 1px solid #008cff; }
+  button.secondary-inverse {
+    border: 1px solid rgba(117, 128, 138, 0.18);
+    color: #75808a;
+    background-color: rgba(117, 128, 138, 0.18); }
+    button.secondary-inverse:hover {
+      border: 1px solid #75808a; }
+  button.success-inverse {
+    border: 1px solid rgba(21, 202, 32, 0.18);
+    color: #15ca20;
+    background-color: rgba(21, 202, 32, 0.18); }
+    button.success-inverse:hover {
+      border: 1px solid #15ca20; }
+  button.danger-inverse {
+    border: 1px solid rgba(253, 53, 80, 0.18);
+    color: #fd3550;
+    background-color: rgba(253, 53, 80, 0.18); }
+    button.danger-inverse:hover {
+      border: 1px solid #fd3550; }
+  button.warning-inverse {
+    border: 1px solid rgba(255, 151, 0, 0.18);
+    color: #ff9700;
+    background-color: rgba(255, 151, 0, 0.18); }
+    button.warning-inverse:hover {
+      border: 1px solid #ff9700; }
+  button.info-inverse {
+    border: 1px solid rgba(13, 206, 236, 0.18);
+    color: #0dceec;
+    background-color: rgba(13, 206, 236, 0.18); }
+    button.info-inverse:hover {
+      border: 1px solid #0dceec; }
+  button.light-inverse {
+    border: 1px solid rgba(233, 234, 234, 0.2);
+    color: #212529;
+    background-color: rgba(233, 234, 234, 0.2); }
+    button.light-inverse:hover {
+      border: 1px solid #e9eaea; }
+  button.dark-inverse {
+    border: 1px solid rgba(34, 48, 53, 0.2);
+    color: #223035;
+    background-color: rgba(34, 48, 53, 0.2); }
+    button.dark-inverse:hover {
+      border: 1px solid #223035; }
+  button.facebook {
+    background-color: #3b5998;
+    border: 1px solid #3b5998; }
+  button.twitter {
+    background-color: #55acee;
+    border: 1px solid #55acee; }
+  button.google {
+    background-color: #dd4b39;
+    border: 1px solid #dd4b39; }
+  button.linkedin {
+    background-color: #0976b4;
+    border: 1px solid #0976b4; }
+  button.youtube {
+    background-color: #e52d27;
+    border: 1px solid #e52d27; }
+  button.github {
+    background-color: #333;
+    border: 1px solid #333; }
+  button.behance {
+    background-color: #1769ff;
+    border: 1px solid #1769ff; }
+  button.skype {
+    background-color: #00aff0;
+    border: 1px solid #00aff0; }
+  button.facebook-outline {
+    border: 1px solid #3b5998;
+    background-color: transparent;
+    color: #3b5998; }
+    button.facebook-outline:hover {
+      background-color: #3b5998;
+      color: #fff; }
+  button.twitter-outline {
+    border: 1px solid #55acee;
+    background-color: transparent;
+    color: #55acee; }
+    button.twitter-outline:hover {
+      background-color: #55acee;
+      color: #fff; }
+  button.google-outline {
+    border: 1px solid #dd4b39;
+    background-color: transparent;
+    color: #dd4b39; }
+    button.google-outline:hover {
+      background-color: #dd4b39;
+      color: #fff; }
+  button.linkedin-outline {
+    border: 1px solid #0976b4;
+    background-color: transparent;
+    color: #0976b4; }
+    button.linkedin-outline:hover {
+      background-color: #0976b4;
+      color: #fff; }
+  button.youtube-outline {
+    border: 1px solid #e52d27;
+    background-color: transparent;
+    color: #e52d27; }
+    button.youtube-outline:hover {
+      background-color: #e52d27;
+      color: #fff; }
+  button.github-outline {
+    border: 1px solid #333;
+    background-color: transparent;
+    color: #333; }
+    button.github-outline:hover {
+      background-color: #333;
+      color: #fff; }
+  button.behance-outline {
+    border: 1px solid #1769ff;
+    background-color: transparent;
+    color: #1769ff; }
+    button.behance-outline:hover {
+      background-color: #1769ff;
+      color: #fff; }
+  button.skype-outline {
+    border: 1px solid #00aff0;
+    background-color: transparent;
+    color: #00aff0; }
+    button.skype-outline:hover {
+      background-color: #00aff0;
+      color: #fff; }
+  button.drop-down {
+    position: relative; }
+  button .drop-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    padding: 5px 0;
+    box-shadow: 0 0 5px #aaa;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 200px;
+    z-index: 2; }
+    button .drop-list ul {
+      list-style: none; }
+    button .drop-list a {
+      padding: 5px 10px;
+      display: block;
+      transition: 0.5s all ease; }
+      button .drop-list a:hover {
+        background-color: #efefef; }
+
+/* End Default Buttons */
+/* Start Group Buttons */
+.btn-group {
+  margin-left: 10px; }
+  .btn-group .btn {
+    margin-left: 0; }
+    .btn-group .btn:first-of-type {
+      border-radius: 0 .25rem .25rem 0 !important; }
+    .btn-group .btn:last-of-type {
+      border-radius: 0.25rem 0 0 0.25rem !important; }
+  .btn-group.round .btn:first-of-type {
+    border-radius: 0 50px 50px 0; }
+  .btn-group.round .btn:last-of-type {
+    border-radius: 50px 0 0 50px; }
+  .btn-group.rounded-0 .btn {
+    border-radius: 0; }
+
+.btn-group-vertical {
+  margin-bottom: 10px;
+  margin-left: 10px; }
+  .btn-group-vertical .btn {
+    margin-bottom: 0; }
+  .btn-group-vertical.round .btn:first-of-type {
+    border-radius: 30px 30px 0 0; }
+  .btn-group-vertical.round .btn:last-of-type {
+    border-radius: 0 0 30px 30px; }
+  .btn-group-vertical.rounded-0 .btn {
+    border-radius: 0; }
+
+/* End Group Buttons */
+
+/*# sourceMappingURL=style_buttons.css.map */

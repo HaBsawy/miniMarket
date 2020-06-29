@@ -1,0 +1,129 @@
+/* Start Forms */
+
+.form-group {
+    
+    label {
+        color: #6b6b6b;
+        font-size: .75rem;
+        text-transform: uppercase;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    
+    .form-control {
+    
+        &.round {
+            border-radius: 50px;
+        }
+
+        &.square {
+            border-radius: 0;
+        }
+
+        &.x-large {
+            height: 60px !important;
+            font-size: 26px !important;
+        }
+    }
+    
+    .input-group-prepend .checkbox, 
+    .input-group-prepend .radio {
+        top: 7px
+    }
+}
+
+.text-light label {
+    color: #f8f9fa !important
+}
+
+.datepicker-inline {
+    width: 100% !important
+}
+
+.datepicker table {
+    width: 100%;
+    
+    tr {
+        line-height: 30px
+    }
+}
+
+.validation p.text-danger {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.wizard {
+    overflow: hidden;
+    
+    ul.heading {
+        display: flex;
+        list-style: none;
+        flex-wrap: nowrap;
+        
+        li {
+            width: 50%;
+            background: #f3f4fa;
+            color: #aaa;
+            display: block;
+            margin: 0 0 12px 12px;
+            padding: 12px;
+            text-decoration: none;
+            border-radius: 5px;
+            
+            &.active {
+                background: #008cff;
+                color: #fff;
+            }
+            
+            span {
+                font-size: 20px
+            }
+        }
+    }
+    
+    .wizard-content {
+        background: #f3f4fa;
+        margin: 12px;
+        padding: 25px;
+        border-radius: 5px;
+        
+        section {
+            display: none;
+            
+            &.active {
+                display: block
+            }
+        }
+    }
+    
+    .wizard-pagination {
+        margin: 12px;
+        float: right;
+        
+        button.disabled {
+            background: #f3f4fa;
+            color: #aaa;
+        }
+    }
+    
+    &.vertical {
+        ul.heading {
+            display: block;
+
+            li {
+                width: 100%;
+            }
+        }
+
+        .wizard-content {
+            margin: 0 12px 12px;
+        }
+    }
+    
+}
+
+
+
+/* End Forms */
